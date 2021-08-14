@@ -1,0 +1,94 @@
+nav{
+    height: 45px;
+    border-bottom: 2px ridge black;
+}
+
+.home{
+    background-image: url("./img/Pic.jpg");
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+
+.content{
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    border: 4px ridge black;
+    height: 540px;
+    margin-top: 5px;
+    padding: 5px;
+    background-size: 1200px 560px;
+}
+
+.donate{
+    margin:10px 90px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.heading, .sub-heading, .author {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.donate-btn{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.button{
+    background: rgb(255, 188, 2);
+    color: black;
+    padding: 5px 20px;
+    border:2px ridge black;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: rgb(255, 188, 2);
+    background: black;
+}
+
+footer{
+    border-top: 2px ridge black;
+    height: 12rem;
+}
+
+.page-social{
+    display: flex;
+    padding: 20px;
+}
+
+.pages{
+    padding-right: 60px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.social{
+    padding-left: 30rem;
+    font-size: 30px;
+}
+
+i{
+    font-size: 30px;
+    padding-right:20px;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
